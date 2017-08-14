@@ -1,0 +1,128 @@
+/* Vidrack video plugin, admin page settings and video list page */
+
+.vidrack-video-preview-wrap {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 135px;
+    width: 600px;
+    height: 340px;
+}
+
+.vidrack-video-preview-wrap #vidrack-video-preview {
+    width: 100%;
+    height: 100%;
+}
+
+.vidrack-video-preview-wrap .vidrack-video-preview-close {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    background-image: url("../images/close-button.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    right: -10px;
+    top: -13px;
+    z-index: 999;
+}
+
+.window-fade {
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: black;
+    opacity: 0.3;
+    height: 100%;
+}
+
+.wp-video-capture-pro-link,
+.wp-video-capture-pro-link:hover {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+ul.wp-video-capture-footer-items {
+    margin: 0;
+    padding: 0;
+}
+
+ul.wp-video-capture-footer-items li  {
+    list-style-type: none;
+    display: inline;
+}
+
+ul.wp-video-capture-footer-items li:before {
+    content: " | ";
+}
+
+ul.wp-video-capture-footer-items li:first-child:before {
+    content: none;
+}
+
+#vidrack_export_csv {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    left: 15px;
+    width: 95px;
+    float: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(25, 119, 181);
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    clear: both;
+}
+
+.share_to {
+    display: block;
+}
+
+.share_to a.facebook-share {
+    background-image: url('../images/facebook_share.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 20px;
+    width: 57px;
+    margin-top: 7px;
+}
+
+.upload-video-to-youtube .spinner-loader {
+    left: auto !important;
+    right: -35px !important;
+}
+
+#vidrack_export_csv:hover {
+    background-color: rgb(35, 133, 195);
+}
+
+#custom-capture-fields {
+    width: auto;
+}
+
+@media (min-width: 783px) {
+    .wp-admin #vidrack_pro_account_key {
+        width: 320px;
+    }
+    .wp-admin #vidrack_youtube_api_id {
+        width: 545px;
+    }
+    .wp-admin #vidrack_youtube_api_secret {
+        width: 220px;
+    }
+}
+
+@media (max-width: 783px) {
+    .vidrack-video-preview-wrap {
+        width: 90%;
+    }
+}

@@ -1,0 +1,23 @@
+.vidrack-video-post-wrap {
+    text-align: center;
+}
+
+.vidrack-video-post-wrap #vidrack-video-post {
+    display: inline-block;
+    min-width: 400px;
+    min-height: 280px;
+    margin-top: 20px;
+}
+
+.vidrack-video-post-wrap p {
+    margin-top: 10px;
+}
+
+@media (max-width: 550px) {
+    .vidrack-video-post-wrap #vidrack-video-post{
+        min-width: auto;
+        min-height: 250px;
+        width: 100%;
+        height: auto;
+    }
+}

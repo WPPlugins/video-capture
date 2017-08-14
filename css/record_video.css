@@ -1,0 +1,253 @@
+.wp-video-capture {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+
+.mfp-content {
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+}
+
+.wp-video-capture a {
+  box-shadow: none !important;
+}
+
+.wp-video-capture-flash-container-popup {
+  position: relative;
+  background: #FFF;
+  padding: 10px;
+  width: 460px;
+  margin: 20px auto;
+}
+
+.wp-video-capture-flash-container object {
+  height: 350px;
+  width: 420px;
+}
+
+.wp-video-capture-flash-container,
+.wp-video-capture-progress-indicator-container,
+.wp-video-capture-file-selector {
+  display: none;
+}
+
+.wp-video-capture-desktop-upload .wp-video-capture-desktop-record {
+  display: inline-block;
+}
+
+.wp-video-capture-desktop-upload {
+  display: none;
+  margin: 15px 0 0 0;
+}
+
+.wp-video-capture-desktop-upload .wp-video-capture-upload-form {
+  margin: 0;
+}
+
+.wp-video-capture-desktop .wp-video-capture-progress-indicator-container {
+  width: 203px;
+}
+
+.wp-video-capture-mobile .wp-video-capture-progress-indicator-container {
+  width: 100%;
+}
+
+.wp-video-capture-mobile,
+.wp-video-capture-desktop {
+  display: none;
+}
+
+.wp-video-capture-button-container {
+  display: inline-block;
+}
+
+.wp-video-capture-troubleshooting {
+  text-align: center;
+  margin: 15px 0;
+  color: #6C7564;
+  font-size: 8pt;
+  line-height: 0.5;
+}
+
+.wp-video-capture-mobile .wp-video-capture-troubleshooting {
+  display: block
+}
+
+.wp-video-capture-desktop .wp-video-capture-troubleshooting {
+  display: inline-block;
+}
+
+.wp-video-capture-powered-by {
+  display: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+.wp-video-capture-progress-container {
+  padding: 20px 0 20px 0;
+}
+
+.wp-video-capture-progress-container p {
+  margin: 0;
+}
+
+.wp-video-capture-progress {
+  border: 1px solid black;
+  background: #aaaaaa;
+  width: 100%;
+  height: 40px;
+}
+
+.wp-video-capture-progress-text {
+  color: #ffffff;
+  text-align: center;
+  margin: -37px 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 16pt;
+}
+
+.wp-video-capture-record-button-desktop,
+.wp-video-capture-record-button-mobile {
+  text-align: center !important;
+  background: #D10000;
+  border-radius: 3px !important;
+  color: #fff !important;
+  display: inline-block;
+  line-height: 1 !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: .3s;
+}
+.wp-video-capture-record-button-desktop:hover,
+.wp-video-capture-record-button-mobile:hover {
+  background: #B50000;
+}
+.wp-video-capture-record-button-desktop:active,
+.wp-video-capture-record-button-mobile:active {
+  background: #A50303;
+}
+
+.wp-video-capture-upload-button-desktop {
+  color: #222;
+  font-size: 12px;
+  font-weight: 500;
+}
+.wp-video-capture-upload-button-desktop:hover {
+  color: #B50000;
+}
+.wp-video-capture-upload-button-desktop:active,
+.wp-video-capture-upload-button-desktop:focus {
+  color: #A50303;
+}
+.wp-video-capture-upload-button-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNSA0djJoMTRWNEg1em0wIDEwaDR2Nmg2di02aDRsLTctNy03IDd6Ii8+PC9zdmc+);
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: contain;
+  vertical-align: bottom;
+}
+
+.wp-video-capture-record-button-mobile {
+  margin-bottom: 4px;
+}
+
+.wp-video-capture-ajax-success-store,
+.wp-video-capture-ajax-success-upload,
+.wp-video-capture-ajax-error-store,
+.wp-video-capture-ajax-error-upload {
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.wp-video-capture-ajax-success-store,
+.wp-video-capture-ajax-success-upload {
+  background-color: #CEF6CE;
+}
+
+.wp-video-capture-ajax-error-store,
+.wp-video-capture-ajax-error-upload {
+  background-color: #F6D8CE;
+}
+
+.wp-video-collect-data {
+  display: none;
+}
+
+.wp-video-collect-data .wp-video-collect-data-form{
+  width: 203px;
+  display: inline-block;
+}
+
+.wp-video-collect-data .wp-video-collect-data-block {
+  display: none;
+  margin: 7px 0 0;
+}
+
+.wp-video-collect-data .wp-video-collect-data-block[data-collect="language"] {
+  margin-bottom: 10px;
+}
+
+.wp-video-collect-data .wp-video-collect-data-block label{
+  text-align: left;
+}
+
+.wp-video-collect-data .wp-video-collect-data-block .required {
+  display: none;
+  color:rgb(210, 50, 50);
+}
+
+.wp-video-collect-data .required-text {
+  display: none;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.wp-video-collect-data .required-text span {
+  color:rgb(210, 50, 50);
+}
+
+.wp-video-collect-data .wp-video-capture-collect-error {
+  display: none;
+  margin-top: -5px;
+  text-align: left;
+  color:rgb(210, 50, 50);
+  margin-bottom: 10px;
+}
+
+.wp-video-collect-data .wp-video-capture-email-submit-skip {
+  display: none;
+  background-color: #5bc0de;
+}
+
+.wp-video-collect-data .wp-video-capture-filed-submit-save {
+  background-color: #5cb85c !important;
+  margin-top: 10px;
+}
+
+.wp-video-collect-data .wp-video-capture-filed-submit-save, .wp-video-collect-data .wp-video-capture-email-submit-skip {
+  width: 42%;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  float: left;
+  border: none;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-right: 1%;
+  padding-top: 0.8125em;
+  padding-bottom: 0.75em;
+}
